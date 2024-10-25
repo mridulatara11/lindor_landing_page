@@ -94,6 +94,9 @@ body::before {
     color: var(--silver);
     background-color: transparent;
     border: 1px solid var(--silver);
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 1.5s;
 }
 .container .print:hover{
     color: var(--primary-color);
@@ -108,6 +111,9 @@ body::before {
     color: var(--text-dark);
     background-color: transparent;
     border: 1px solid var(--text-dark);
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 1s;
 }
 .container .catalog:hover{
     color: var(--primary-color);
@@ -279,13 +285,13 @@ nav {
 }
 
 .footer_links li:nth-child(1) {
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 .footer_links li:nth-child(2) {
-    animation-delay: 3.5s;
+    animation-delay: 1.5s;
 }
 .footer_links li:nth-child(3) {
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 @keyframes fade-in {
