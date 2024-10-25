@@ -95,6 +95,9 @@ body::before {
     background-color: transparent;
     border: 1px solid var(--silver);
 }
+.container .print:hover{
+    color: var(--primary-color);
+}
 
 .container .catalog{
     position: absolute;
@@ -106,7 +109,9 @@ body::before {
     background-color: transparent;
     border: 1px solid var(--text-dark);
 }
-
+.container .catalog:hover{
+    color: var(--primary-color);
+}
 nav {
     padding: 2rem 0;
     padding-inline: 1rem;
@@ -188,6 +193,9 @@ nav {
     padding: 1rem 2rem;
     border: 1px solid var(--silver);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+.container .explore:hover{
+    color: var(--primary-color);
 }
 .container h5{
     position: absolute;
