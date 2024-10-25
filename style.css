@@ -222,22 +222,34 @@ nav {
 .feature-1{
     color: var(--text-dark);
     transform: translate(calc(-50% + 300px), calc(-50% - 200px));
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 1s;
 }
 
 .feature-2 {
     color: var(--silver);
     transform: translate(calc(-50% - 300px), calc(-50% - 100px));
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 1.5s;
 }
 
 
 .feature-3{
     color: var(--text-dark);
     transform: translate(calc(-50% + 300px), calc(-50% + 205px));
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 2s;
 }
 
 .feature-4 {
     color: var(--silver);
     transform: translate(calc(-50% - 300px), calc(-50% + 250px));
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 2.5s;
 }
 
 
